@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lo.sisyphuser.fish.view.FoodTypeActivity">
+
+    <include
+        layout="@layout/base_head"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ExpandableListView
+            android:id="@+id/elv_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:groupIndicator="@null"
+            android:divider="@null"
+            android:childDivider="@null"
+            android:visibility="gone" />
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+        <TextView
+            android:id="@+id/tv_fail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="获取信息失败，点击重新获取"
+            android:gravity="center"
+            android:visibility="gone"/>
+    </RelativeLayout>
+</LinearLayout>
