@@ -8,5 +8,13 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="windowNoTitle">true</item>
     </style>
-
+<!--<style name="MenuStyle" parent="@style/ThemeOverlay.AppCompat.Light">-->
+    <style name="MenuStyle" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">#ff1234</item>
+        <!--<item name="android:colorBackground">#000000</item>-->
+    </style>
+    <style name="PpupmenuStyle" parent="@style/AppTheme">
+        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="android:colorBackground">#000000</item>
+    </style>
 </resources>

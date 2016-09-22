@@ -4,12 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.lo.sisyphuser.fish.view.FoodTypeActivity">
+    tools:context=".main.foodtype.FoodTypeActivity">
 
     <include
         layout="@layout/base_head"
         android:layout_width="match_parent"
         android:layout_height="40dp" />
+
 
     <RelativeLayout
         android:layout_width="match_parent"

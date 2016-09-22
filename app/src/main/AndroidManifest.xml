@@ -13,16 +13,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:name=".MyApplication">
-        <activity android:name=".MainActivity">
+        <activity android:name=".main.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.FoodTypeActivity" />
-        <activity android:name=".view.TypeListActivity" />
-        <activity android:name=".view.FoodDetailActivity"></activity>
+        <activity android:name=".main.foodtype.FoodTypeActivity"/>
+        <activity android:name=".main.typelist.TypeListActivity" />
+        <activity android:name=".main.fooddetail.FoodDetailActivity"></activity>
     </application>
 
 </manifest>

@@ -1,12 +1,7 @@
 package com.lo.sisyphuser.fish.util;
 
-import com.alibaba.fastjson.JSON;
-import com.lo.sisyphuser.fish.been.FoodTypeGroup;
-
 import org.json.JSONException;
 import org.json.JSONObject;
-
-import java.util.List;
 
 /**
  * Created by xx on 2016/9/14.
